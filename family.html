@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head><title>Family</title></head>
+<body>
+<header>
+<img src="logo.png" width="1300px" height="200px" align="top" alt="ANISA SYAKILA" title="Nursiti Anisa Syakila binti Ismail">
+<Body background="2.png">
+</header>
+
+<center><b>
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td><a href="index.html">HOME</a></td>
+<td><a href="biodata.html">BIODATA</a></td>
+<td><a href="family.html">FAMILY</a></td>
+<td><a href="gallery.html">GALLERY</a></td>
+<td><a href="education.html">EDUCATION</a></td>
+<td><a href="interest.html">INTEREST</a></td>
+</tr>
+</nav>
+</table>
+<hr><center></b>
+
+<center><h1 style="font-family:lucida handwriting; color: #005E7A; font-size: 50px;"> MY FAMILY </h1>
+
+<img src="family.png" width="400px" height="600px" border="2" title="dad,sisters&brother">
+<img src="ibu.jpg" width="400px" height="600px" border="2" title="mom">
+<img src="fam4.jpg" width="400px" height="600px" border="2" title="sisters"></center>
+
+<ul>
+  <li>My father's name is Ismail bin Jusoh. He's 61 years old. My father used to work in a palm oil plantation before he stopped to run his own fruit and vegetable farm.</li></p>
+  <li>My mother's name is Maziah Binti Ali. She's 55 years old. My mother has been a full-time housewife since marrying my father.</li></p>
+  <li>I have five siblings including me, a brother, and three older sisters.</li></p>
+  <li>The eldest among my siblings is my brother, Muhammad Ruhamudin. He's 31 years old.</li></p>
+  <li>The second one is my sister, Nursiti Rahamida, she is my second sister. She is 29 years old.</li></p>
+  <li>Nursiti Aminin is my third sister, and Nursiti Amirna is my fourth sister. They are 28, and 26 years old. The youngest is me.</li></p>
+</ul>
+
+<style>
+body {
+  font-family: Georgia, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<hr>
+<center><footer>&copy; NURSITI's PAGE 2024</footer></center>
+
+</body>
+</html>
